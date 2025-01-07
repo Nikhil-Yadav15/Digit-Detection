@@ -18,10 +18,7 @@ def main():
     font_color = (2, 2, 255)
     thickness = 2
     position = np.array([300, 250])
-    frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-    frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     w, h = 100, 100
-    global show
     show = None
     while True:
         if show:
